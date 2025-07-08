@@ -6,7 +6,7 @@
     #meuBotaoSimples {
         padding: 10px 20px;
         font-size: 16px;
-        background-color: blue; /* Cor inicial */
+        background-color: purple; /* Cor inicial */
         color: white;
         border: none;
         cursor: pointer;
@@ -24,14 +24,14 @@
     // 2. Adiciona um "ouvinte" para o evento de clique (click)
     botao.addEventListener('click', function() {
         // 3. Verifica a condição (estrutura 'se-então')
-        if (botao.style.backgroundColor === 'blue') {
-            // Se a cor for azul, muda para vermelho
-            botao.style.backgroundColor = 'red';
-            botao.textContent = 'Agora sou Vermelho!';
+        if (botao.style.backgroundColor === 'purple') {
+            // Se a cor for roxo, muda para amarelo
+            botao.style.backgroundColor = 'yellow';
+            botao.textContent = 'Agora sou yellow!';
         } else {
-            // Senão (se não for azul), muda para azul
-            botao.style.backgroundColor = 'blue';
-            botao.textContent = 'Agora sou Azul!';
+            // Senão (se não for roxo), muda para roxo
+            botao.style.backgroundColor = 'purple';
+            botao.textContent = 'Agora sou Roxo!';
         }
     });
 </script>
